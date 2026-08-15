@@ -1,6 +1,18 @@
 cloth categories
 
+## Project Structure
 
+```text
+Digit-Clustering-using-K-Means/
+│
+├── cloth categories.ipynb
+├── screenshots/
+│   ├──
+│   └──
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
 
 ## License
 
