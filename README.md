@@ -1,5 +1,6 @@
-# cloth categories
+# 👕 Fashion-MNIST Classification (Deep Learning)
 
+Classifying clothing images using a Neural Network and the Fashion-MNIST dataset with TensorFlow and Keras. This project demonstrates how a simple deep learning model can classify grayscale images into 10 different clothing categories.
 ## Project Structure
 
 ```text
