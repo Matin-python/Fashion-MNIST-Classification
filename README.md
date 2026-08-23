@@ -70,6 +70,21 @@ Label	Class
 
 Each image contains pixel values ranging from 0 to 255, which are normalized before training.
 
+
+## Deep Learning Workflow
+
+1. Load the Fashion-MNIST dataset.
+2. Split the dataset into training and testing sets.
+3. Display sample images from the dataset.
+4. Normalize the image pixel values.
+5. Build a neural network using Keras.
+6. Flatten each 28×28 image.
+7. Train the model for 20 epochs.
+8. Predict the classes of test images.
+9. Compare the predictions with the actual labels.
+10. Visualize the neural network architecture.
+
+
 ## Project Structure
 
 ```text
