@@ -134,13 +134,13 @@ h = model.fit(
     epochs=20
 )
 
-
 ## Project Structure
 
 ```text
-Digit-Clustering-using-K-Means/
+Fashion-MNIST-Classification/
 │
 ├── cloth categories.ipynb
+├── fashion_mnist.py
 ├── screenshots/
 │   ├──
 │   └──
