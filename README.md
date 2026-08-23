@@ -32,6 +32,15 @@ The model is trained for 20 epochs using the Adam optimizer and Sparse Categoric
 🧩 Neural network architecture visualization
 🖼️ Displaying dataset images
 
+
+## Technologies Used
+Python 3
+TensorFlow
+Keras
+NumPy
+Matplotlib
+Keras Visualizer
+
 ## Project Structure
 
 ```text
