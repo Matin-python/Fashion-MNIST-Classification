@@ -17,6 +17,21 @@ A Dense output layer with 10 neurons, representing the 10 clothing classes
 The model is trained for 20 epochs using the Adam optimizer and Sparse Categorical Crossentropy loss function.
 
 
+## Features
+
+🧠 Neural Network classification
+👕 Fashion-MNIST dataset
+🖼️ 28×28 grayscale image processing
+🔄 Image flattening using a Flatten layer
+🔥 ReLU activation function
+🎯 10-class classification
+⚙️ Adam optimizer
+📉 Sparse Categorical Crossentropy loss
+📊 Accuracy evaluation
+📈 Training over multiple epochs
+🧩 Neural network architecture visualization
+🖼️ Displaying dataset images
+
 ## Project Structure
 
 ```text
