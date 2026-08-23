@@ -149,6 +149,25 @@ Fashion-MNIST-Classification/
 └── README.md
 ```
 
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/Matin-python/Fashion-MNIST-Classification.git
+
+Move into the project directory:
+
+cd Fashion-MNIST-Classification
+
+Install the required packages:
+
+pip install -r requirements.txt
+
+or install them manually:
+
+pip install tensorflow keras matplotlib keras-visualizer
+
 ## License
 
 This project is licensed under the MIT License.
