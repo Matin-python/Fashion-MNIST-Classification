@@ -1,5 +1,3 @@
-Absolutely. I'll keep **exactly the same README algorithm/style** we've been using for your previous ML and DL projects.
-
 # 👕 Fashion-MNIST Classification (Deep Learning)
 
 Classifying clothing images using a **Neural Network** and the **Fashion-MNIST dataset** with **TensorFlow and Keras**. This project demonstrates how a simple deep learning model can classify grayscale images into 10 different clothing categories.
