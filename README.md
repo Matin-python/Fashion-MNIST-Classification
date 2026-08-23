@@ -34,12 +34,41 @@ The model is trained for 20 epochs using the Adam optimizer and Sparse Categoric
 
 
 ## Technologies Used
+
 Python 3
 TensorFlow
 Keras
 NumPy
 Matplotlib
 Keras Visualizer
+
+
+## Dataset
+
+The project uses the Fashion-MNIST dataset, which is available directly through TensorFlow/Keras.
+
+The dataset contains:
+
+60,000 training images
+10,000 test images
+28×28 grayscale images
+10 clothing categories
+
+The classes are:
+
+Label	Class
+0	T-shirt
+1	Trouser
+2	Pullover
+3	Dress
+4	Coat
+5	Sandal
+6	Shirt
+7	Sneaker
+8	Bag
+9	Ankle boot
+
+Each image contains pixel values ranging from 0 to 255, which are normalized before training.
 
 ## Project Structure
 
