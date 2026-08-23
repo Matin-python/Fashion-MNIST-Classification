@@ -1,75 +1,74 @@
+Absolutely. I'll keep **exactly the same README algorithm/style** we've been using for your previous ML and DL projects.
+
 # 👕 Fashion-MNIST Classification (Deep Learning)
 
-Classifying clothing images using a Neural Network and the Fashion-MNIST dataset with TensorFlow and Keras. This project demonstrates how a simple deep learning model can classify grayscale images into 10 different clothing categories.
+Classifying clothing images using a **Neural Network** and the **Fashion-MNIST dataset** with **TensorFlow and Keras**. This project demonstrates how a simple deep learning model can classify grayscale images into 10 different clothing categories.
 
 ## Overview
 
-This project uses a Fully Connected Neural Network to classify images from the Fashion-MNIST dataset.
+This project uses a **Fully Connected Neural Network** to classify images from the Fashion-MNIST dataset.
 
-The dataset contains grayscale images of clothing items, with each image having a resolution of 28×28 pixels.
+The dataset contains grayscale images of clothing items, with each image having a resolution of **28×28 pixels**.
 
 The model consists of:
 
-A Flatten layer to convert each 28×28 image into a one-dimensional vector
-A Dense layer with 128 neurons and ReLU activation
-A Dense output layer with 10 neurons, representing the 10 clothing classes
+* A `Flatten` layer to convert each 28×28 image into a one-dimensional vector
+* A `Dense` layer with 128 neurons and ReLU activation
+* A `Dense` output layer with 10 neurons, representing the 10 clothing classes
 
-The model is trained for 20 epochs using the Adam optimizer and Sparse Categorical Crossentropy loss function.
-
+The model is trained for **20 epochs** using the **Adam optimizer** and **Sparse Categorical Crossentropy** loss function.
 
 ## Features
 
-🧠 Neural Network classification
-👕 Fashion-MNIST dataset
-🖼️ 28×28 grayscale image processing
-🔄 Image flattening using a Flatten layer
-🔥 ReLU activation function
-🎯 10-class classification
-⚙️ Adam optimizer
-📉 Sparse Categorical Crossentropy loss
-📊 Accuracy evaluation
-📈 Training over multiple epochs
-🧩 Neural network architecture visualization
-🖼️ Displaying dataset images
-
+* 🧠 Neural Network classification
+* 👕 Fashion-MNIST dataset
+* 🖼️ 28×28 grayscale image processing
+* 🔄 Image flattening using a `Flatten` layer
+* 🔥 ReLU activation function
+* 🎯 10-class classification
+* ⚙️ Adam optimizer
+* 📉 Sparse Categorical Crossentropy loss
+* 📊 Accuracy evaluation
+* 📈 Training over multiple epochs
+* 🧩 Neural network architecture visualization
+* 🖼️ Displaying dataset images
 
 ## Technologies Used
 
-Python 3
-TensorFlow
-Keras
-NumPy
-Matplotlib
-Keras Visualizer
-
+* Python 3
+* TensorFlow
+* Keras
+* NumPy
+* Matplotlib
+* Keras Visualizer
 
 ## Dataset
 
-The project uses the Fashion-MNIST dataset, which is available directly through TensorFlow/Keras.
+The project uses the **Fashion-MNIST dataset**, which is available directly through TensorFlow/Keras.
 
 The dataset contains:
 
-60,000 training images
-10,000 test images
-28×28 grayscale images
-10 clothing categories
+* **60,000 training images**
+* **10,000 test images**
+* **28×28 grayscale images**
+* **10 clothing categories**
 
 The classes are:
 
-Label	Class
-0	T-shirt
-1	Trouser
-2	Pullover
-3	Dress
-4	Coat
-5	Sandal
-6	Shirt
-7	Sneaker
-8	Bag
-9	Ankle boot
+| Label | Class      |
+| ----: | ---------- |
+|     0 | T-shirt    |
+|     1 | Trouser    |
+|     2 | Pullover   |
+|     3 | Dress      |
+|     4 | Coat       |
+|     5 | Sandal     |
+|     6 | Shirt      |
+|     7 | Sneaker    |
+|     8 | Bag        |
+|     9 | Ankle boot |
 
-Each image contains pixel values ranging from 0 to 255, which are normalized before training.
-
+Each image contains pixel values ranging from **0 to 255**, which are normalized before training.
 
 ## Deep Learning Workflow
 
@@ -84,11 +83,11 @@ Each image contains pixel values ranging from 0 to 255, which are normalized bef
 9. Compare the predictions with the actual labels.
 10. Visualize the neural network architecture.
 
-
-Model Architecture
+## Model Architecture
 
 The neural network consists of:
 
+```text
 Input Image
    │
    ▼
@@ -106,18 +105,23 @@ ReLU Activation
    │
    ▼
 Class Prediction
+```
 
 The model is implemented using Keras:
 
+```python
 model = Sequential()
 
 model.add(Flatten(input_shape=(28, 28)))
 model.add(Dense(128, activation='relu'))
 model.add(Dense(10))
-Model Compilation
+```
+
+## Model Compilation
 
 The model uses:
 
+```python
 model.compile(
     loss=tf.keras.losses.SparseCategoricalCrossentropy(
         from_logits=True
@@ -125,53 +129,63 @@ model.compile(
     optimizer='adam',
     metrics=['accuracy']
 )
+```
 
 The model is trained for:
 
+```python
 h = model.fit(
     train_images,
     train_labels,
     epochs=20
 )
+```
 
 ## Project Structure
 
 ```text
 Fashion-MNIST-Classification/
 │
-├── cloth categories.ipynb
 ├── fashion_mnist.py
-├── screenshots/
-│   ├──
-│   └──
+├── DL_model.png
 ├── requirements.txt
 ├── LICENSE
 └── README.md
 ```
 
-
 ## Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/Matin-python/Fashion-MNIST-Classification.git
+```
 
 Move into the project directory:
 
+```bash
 cd Fashion-MNIST-Classification
+```
 
 Install the required packages:
 
+```bash
 pip install -r requirements.txt
+```
 
 or install them manually:
 
+```bash
 pip install tensorflow keras matplotlib keras-visualizer
+```
+
+## Contributing
+
+Contributions, suggestions, and bug reports are welcome. Feel free to fork the repository and submit a pull request.
 
 ## License
 
 This project is licensed under the MIT License.
-
 
 ## Author
 
