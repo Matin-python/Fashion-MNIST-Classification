@@ -85,6 +85,56 @@ Each image contains pixel values ranging from 0 to 255, which are normalized bef
 10. Visualize the neural network architecture.
 
 
+Model Architecture
+
+The neural network consists of:
+
+Input Image
+   │
+   ▼
+28 × 28 Image
+   │
+   ▼
+Flatten
+   │
+   ▼
+128 Neurons
+ReLU Activation
+   │
+   ▼
+10 Output Neurons
+   │
+   ▼
+Class Prediction
+
+The model is implemented using Keras:
+
+model = Sequential()
+
+model.add(Flatten(input_shape=(28, 28)))
+model.add(Dense(128, activation='relu'))
+model.add(Dense(10))
+Model Compilation
+
+The model uses:
+
+model.compile(
+    loss=tf.keras.losses.SparseCategoricalCrossentropy(
+        from_logits=True
+    ),
+    optimizer='adam',
+    metrics=['accuracy']
+)
+
+The model is trained for:
+
+h = model.fit(
+    train_images,
+    train_labels,
+    epochs=20
+)
+
+
 ## Project Structure
 
 ```text
