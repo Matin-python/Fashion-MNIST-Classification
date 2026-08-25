@@ -177,6 +177,24 @@ or install them manually:
 pip install tensorflow keras matplotlib keras-visualizer
 ```
 
+## How to Run
+
+Run the Python script:
+
+```bash
+python fashion_mnist.py
+```
+
+The program will:
+
+* Download the Fashion-MNIST dataset if it is not already available.
+* Display sample images.
+* Build the neural network.
+* Display the model architecture.
+* Train the model for 20 epochs.
+* Predict test images.
+
+
 ## Contributing
 
 Contributions, suggestions, and bug reports are welcome. Feel free to fork the repository and submit a pull request.
