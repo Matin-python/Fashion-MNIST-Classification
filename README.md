@@ -144,7 +144,14 @@ h = model.fit(
 ```text
 Fashion-MNIST-Classification/
 │
+├── screenshots/
+│   ├── prediction.png
+│   ├── train_image.png
+│   ├── Training_and_Validation_Accuracy.png
+│   └── Training_and_Validation_Loss.png
+│
 ├── fashion_mnist.py
+├── fashion_mnist.ipynb
 ├── DL_model.png
 ├── requirements.txt
 ├── LICENSE
