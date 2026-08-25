@@ -194,6 +194,45 @@ The program will:
 * Train the model for 20 epochs.
 * Predict test images.
 
+## Evaluation
+
+The model uses **accuracy** as its main evaluation metric.
+
+During training, Keras displays the training loss and accuracy for each epoch.
+
+The model can then be used to predict the clothing category of test images:
+
+```python
+y_pred = model.predict(test_images)
+```
+
+The predicted output contains scores for each of the 10 classes.
+
+## Example Prediction
+
+For example, the model can receive an image such as:
+
+```text
+28 × 28 grayscale image
+        ↓
+    Neural Network
+        ↓
+   10 class scores
+        ↓
+Predicted clothing class
+```
+
+The actual label can be checked using:
+
+```python
+print(test_labels[0])
+```
+
+and the corresponding image can be displayed using:
+
+```python
+imgshow(test_images[0])
+```
 
 ## Contributing
 
