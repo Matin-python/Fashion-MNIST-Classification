@@ -54,7 +54,7 @@ The dataset contains:
 The classes are:
 
 | Label | Class      |
-| ----: | ---------- |
+| ----- | ---------- |
 |     0 | T-shirt    |
 |     1 | Trouser    |
 |     2 | Pullover   |
@@ -233,6 +233,23 @@ and the corresponding image can be displayed using:
 ```python
 imgshow(test_images[0])
 ```
+
+
+## Future Improvements
+
+* 📊 Add test-set accuracy evaluation
+* 📉 Plot training and validation loss
+* 📈 Plot training and validation accuracy
+* 🎯 Add a confusion matrix
+* 📋 Add a classification report
+* 🖼️ Display predicted images with their class names
+* 🧠 Experiment with different numbers of neurons
+* 🔄 Add validation data
+* 🧩 Experiment with different neural network architectures
+* 🖥️ Build a graphical user interface
+* 💾 Save and load the trained model
+* 🧠 Replace the fully connected network with a CNN
+* 📷 Add custom image prediction
 
 ## Contributing
 
