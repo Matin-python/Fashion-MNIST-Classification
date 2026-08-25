@@ -241,6 +241,18 @@ and the corresponding image can be displayed using:
 imgshow(test_images[0])
 ```
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/train_image.png" width="400">
+  <img src="screenshots/prediction.png" width="400">
+</p>
+
+<p align="center">
+  <img src="screenshots/Training_and_Validation_Accuracy.png" width="400">
+  <img src="screenshots/Training_and_Validation_Loss.png" width="400">
+</p>
+
 
 ## Future Improvements
 
